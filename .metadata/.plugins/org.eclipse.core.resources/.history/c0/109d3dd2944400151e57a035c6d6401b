@@ -1,0 +1,12 @@
+
+public class Main {
+
+		public static void main (String[] args){
+			
+			Resta resta = new Resta();
+			
+			Numeros numeros;
+			System.out.println(new Numeros(8, 9, resta));
+			
+		}
+}

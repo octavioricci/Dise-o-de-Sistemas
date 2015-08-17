@@ -1,0 +1,21 @@
+
+public class Main {
+
+		public static void main (String[] args){
+			
+			//Numeros numeros = new Numeros(new Division());
+			//numeros.haceLaCuenta(8, 0);
+			
+			
+			
+			////// OTRA FORMA ////////
+			
+			Resta resta = new Resta();
+			Numeros numeros = new Numeros(resta);
+			numeros.haceLaCuenta(9, 8);
+			
+			
+			
+			
+		}
+}

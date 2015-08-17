@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Prendario"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="EstrategiaDePago"/>
+<fullyQualifiedTypeName name="TarjetaShopping"/>
+<fullyQualifiedTypeName name="Item"/>
+<fullyQualifiedTypeName name="EstrategiaPayPal"/>
+<fullyQualifiedTypeName name="EstrategiaTarjetaCredito"/>
+<fullyQualifiedTypeName name="Numero"/>
+<fullyQualifiedTypeName name="Resta"/>
+<fullyQualifiedTypeName name="OperacionAritmetica"/>
+<fullyQualifiedTypeName name="Numeros"/>
+<fullyQualifiedTypeName name="DetencionPolicial"/>
+<fullyQualifiedTypeName name="Situacion"/>
+</qualifiedTypeNameHistroy>

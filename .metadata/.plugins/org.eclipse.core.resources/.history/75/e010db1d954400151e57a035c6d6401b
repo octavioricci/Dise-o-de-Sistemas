@@ -1,0 +1,18 @@
+
+public class Numeros {
+
+	private int num1,num2;
+	OperacionAritmetica operacion;
+	
+	public Numeros(int num1,int num2, OperacionAritmetica operacion){
+		this.num1 = num1;
+		this.num2 = num2;
+		this.operacion = operacion;
+	}
+	
+	public void haceLaCuenta(){
+		
+		operacion.operar(num1, num2);
+	}
+	
+}

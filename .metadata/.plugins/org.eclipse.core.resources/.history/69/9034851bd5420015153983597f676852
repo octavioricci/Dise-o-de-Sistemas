@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args){
+		
+		Piedra j1 = new Piedra();
+		Papel j2 = new Papel();
+		
+		j1.jugar(j2);
+	}
+}

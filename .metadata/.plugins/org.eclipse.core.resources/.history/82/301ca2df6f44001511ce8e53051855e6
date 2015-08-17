@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class TarjetaShopping {
+
+	Collection<Item> items;
+	
+	
+	public TarjetaShopping(){
+		
+		this.items = new ArrayList<Item>();
+	}
+}

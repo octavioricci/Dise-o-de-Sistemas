@@ -1,0 +1,8 @@
+
+public interface Prestamo {
+
+	private int cuota;
+	private floar sueldo;
+	
+	public String darPrestamo(float sueldo, int cuotas);
+}

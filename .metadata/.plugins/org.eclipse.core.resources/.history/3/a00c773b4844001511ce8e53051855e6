@@ -1,0 +1,39 @@
+
+public class Hipotecario implements Prestamo {
+
+	private int cuota;
+	
+	
+	
+	
+	
+	public int getCuota() {
+		return cuota;
+	}
+
+
+
+
+	public void setCuota(int cuota) {
+		this.cuota = cuota;
+	}
+
+
+
+	
+
+	public String darPrestamo(float monto,float sueldo, int cuotas) {
+		
+		cuota = (int)((sueldo * 1.4) / cuotas);
+		
+				
+		if(cuota < (sueldo * 0.4)){
+	
+			return "Se otorgó el prestamo hipotecario\n"+"Cuota: "+getCuota();		
+		}
+		
+		else
+			return "No se autorizó el prestamo\n"+" Cuota: "+getCuota();
+	}	
+
+}

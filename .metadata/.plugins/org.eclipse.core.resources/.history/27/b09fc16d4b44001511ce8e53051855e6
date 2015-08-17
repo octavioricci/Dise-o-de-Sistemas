@@ -1,0 +1,41 @@
+
+public class Prendario implements Prestamo {
+
+	private int cuota;
+	
+	
+	
+	
+	
+	public int getCuota() {
+		return cuota;
+	}
+
+
+
+
+	public void setCuota(int cuota) {
+		this.cuota = cuota;
+	}
+
+
+
+	
+
+	public String darPrestamo(float monto,float sueldo, int cuotas) {
+		
+		cuota = (int)((monto * 1.2) / cuotas);
+		
+				
+		if(cuota < (sueldo * 0.3)){
+	
+
+			return "Se otorgó el prestamo hipotecario\n"+"Sueldo: "+sueldo+"\nInteres final: "+(monto*1.2)+"\nPesos x Cuota: "+getCuota()+"\nCantidad de Cuotas: "+cuotas;			
+		}
+		
+		else
+			return "No se autorizó el prestamo\n"+" Pesos x Cuota: "+getCuota()+"\nSu cuota según su sueldo: "+sueldo*0.3;
+	}	
+
+
+}

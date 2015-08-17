@@ -1,0 +1,11 @@
+
+public class Main {
+
+		public static void main (String[] args){
+			
+			Resta resta = new Resta();
+			
+			Numeros numeros= new Numeros(8, 9, resta);
+			
+		}
+}

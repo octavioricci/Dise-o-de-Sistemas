@@ -1,0 +1,19 @@
+
+public class Piedra {
+
+	public String jugar(Piedra piedra){
+		return "Empataron!, Ambos son piedra";
+	}
+	
+	public String jugar(Papel papel){
+		return "Ganó jugador2->papel, perdió jugador1->piedra";
+	}
+	
+	public String jugar(Tijera tijera){
+		return "Ganó jugador1->piedra, perdió jugador2->tijera";
+	}
+	
+	public String jugar(Elemento e){
+		return e.jugar(this);
+	}
+}

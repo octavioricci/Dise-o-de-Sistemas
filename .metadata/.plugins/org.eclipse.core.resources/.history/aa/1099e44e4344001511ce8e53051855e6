@@ -1,0 +1,8 @@
+
+public class Hipotecario implements Prestamo {
+
+	public String darPrestamo(float sueldo, int cuotas){
+		
+		
+	}
+}

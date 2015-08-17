@@ -1,0 +1,7 @@
+
+public class EstrategiaTarjetaCredito implements EstrategiaDePago {
+
+	public void pagar(int monto){
+		
+	}
+}

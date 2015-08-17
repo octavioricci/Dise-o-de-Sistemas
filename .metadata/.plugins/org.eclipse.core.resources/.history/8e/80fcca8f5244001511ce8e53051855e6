@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	return "No se autorizó el prestamo\n"+"Pesos x Cuota que debe pagar: "+getCuota()+"\nSu cuota según su sueldo que puede pagar: "+sueldo*0.3;
+}
+

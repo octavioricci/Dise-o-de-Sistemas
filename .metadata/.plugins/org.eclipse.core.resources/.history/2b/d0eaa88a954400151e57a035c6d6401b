@@ -1,0 +1,10 @@
+
+public class Main {
+
+		public static void main (String[] args){
+			
+			Numeros numeros = new Numeros(new Multiplicacion());
+			numeros.haceLaCuenta(8, 9);
+			
+		}
+}

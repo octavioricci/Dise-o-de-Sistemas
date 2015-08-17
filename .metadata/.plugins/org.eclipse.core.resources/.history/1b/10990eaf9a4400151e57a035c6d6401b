@@ -1,0 +1,9 @@
+
+public class PoliciaBueno implements DetencionPolicial {
+	private final int MAXIMA_VELOCIDAD=140;
+	
+	public void multa(int velocidad, int multa){
+		
+		
+	}
+}
